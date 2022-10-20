@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AsyncExample</string>
+    <string name="async_task">Async task</string>
+    <string name="let_s_go">Let\'s_go</string>
+    <string name="async_tasky">Async Tasky</string>
+    <string name="thread_tasky">thread tasky</string>
 </resources>
