@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.thread:
-                intent = new Intent(this, );
+                intent = new Intent(this, ThreadExample.class);
                 startActivity(intent);
                 break;
             default: return;
