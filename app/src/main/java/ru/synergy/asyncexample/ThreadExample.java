@@ -19,13 +19,11 @@ public class ThreadExample extends AppCompatActivity {
             mInfoTextView.setText("Today Number of Ravens is " + mCounter++);
         }
     };
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thread_example);
     }
-
     public void onClick(View v) {
         Runnable runnable = new Runnable() {
             @Override
